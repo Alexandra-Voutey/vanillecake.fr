@@ -22,11 +22,12 @@ body {
 header {
     margin: 0;
     padding: 0;
+	background-color: #ebe3ec;
 }
 
 #tittle-intro h1 {
 	font-family: 'Courgette', cursive;
-	color: #5c340c;
+	color: #a10684;
 	text-align: right;
 	padding-top: 50px;
 	margin-bottom: 50px;
