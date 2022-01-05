@@ -21,18 +21,18 @@ body {
 
 header {
 	background-color: #ebe3ec;
-    height: 30vh;
+    margin: 0;
+    padding: 0;
 }
 
 #logo img {
 	display: block;
 	margin: 0 auto;
 	width: 280px;
-	padding: 10px 0;
+	padding: 20px 0;
 }
 
 .text-intro p {
-	margin-bottom: 18px;
 	color: #5c340c;
 	font-size: 20px;
 	font-family: 'Nunito', sans-serif;
