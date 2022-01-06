@@ -137,6 +137,12 @@ header {
 	border: 1px solid #a10684;
 }
 
+#main .master img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
 	/* social */
 
 #social {
@@ -268,15 +274,5 @@ form {
 	.container {
 		max-width: 80%;
 		margin: 0 auto;
-	}
-
-	section {
-		
-	}
-
-	aside {
-		display: inline-block;
-		vertical-align: center;
-		width: 30%;
 	}
 }
