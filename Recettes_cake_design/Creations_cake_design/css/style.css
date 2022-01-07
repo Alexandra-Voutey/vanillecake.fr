@@ -122,7 +122,8 @@ header {
 	/* MAIN */
 
 #main .container {
-	max-width: 85%;
+	margin: 0 auto;
+	padding: 0;
 }
 
 #titreTop h2 {
@@ -270,9 +271,22 @@ form {
 }
 
 /* VERSION DESKTOP */
-@media screen and (min-width:1025px) {
+@media screen and (min-width:1025px) and (max-width:1025) {
 	.container {
-		max-width: 80%;
 		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width:575px) {
+	#main .master img {
+		width: 280px;
+		height: auto;
+	}
+	#main img {
+		height: 380px;
+		width: 280px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
