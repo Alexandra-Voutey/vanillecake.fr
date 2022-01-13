@@ -1,5 +1,4 @@
 /* Général */
-
 html {
 	scroll-behavior: smooth;
 }
@@ -41,7 +40,7 @@ header {
 }
 
 .text-intro p {
-	margin-bottom: 18px;
+	margin-bottom: 20px;
 	color: #5c340c;
 	font-size: 20px;
 	font-family: 'Nunito', sans-serif;
@@ -51,12 +50,6 @@ header {
 	color: #a10684;
 	font-size: 20px;
 	text-align: center;
-}
-
-.crown i {
-	font-size: 3rem;
-	text-align: center;
-	color: #FFD700;
 }
 
 	/* NAV-BAR */
@@ -165,10 +158,10 @@ header {
 }
 
 
-	/* SOCIAL */
-
-#social {
-	margin-top: 40px;
+   /* social */
+   
+ #social {
+	margin-top: 20px;
 }
 
 #social .center {
@@ -287,11 +280,12 @@ form {
 
 .footer i:hover {
     font-size: 50px;
-    transition: 0.3s ease-in-out;
+    transition: 0.4s ease-in-out;
     color: #a10684;
 }
 
-	/* VERSION DESKTOP */
+
+/* VERSION DESKTOP */
 @media screen and (min-width:1025px) {
 	.container {
 		max-width: 80%;
