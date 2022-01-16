@@ -35,12 +35,16 @@ header {
 	letter-spacing: 10px;
 }
 
+#tittle-intro span .far {
+	margin-left: -12px;
+}
+
 #tittle-intro .percent {
 	font-size: 400%;
 }
 
 .text-intro p {
-	margin-bottom: 20px;
+	margin-bottom: 18px;
 	color: #5c340c;
 	font-size: 20px;
 	font-family: 'Nunito', sans-serif;

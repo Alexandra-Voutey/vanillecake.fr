@@ -36,6 +36,10 @@ header {
 	letter-spacing: 10px;
 }
 
+#tittle-intro span .far {
+	margin-left: -12px;
+}
+
 #tittle-intro .percent {
 	font-size: 400%;
 }
