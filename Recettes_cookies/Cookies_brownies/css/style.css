@@ -132,20 +132,17 @@ header {
 #main h2 {
 	color: #5c340c;
 	font-family: 'Parisienne', cursive;
-	margin-top: 90px;
-	margin-bottom: 90px;
+	margin: 90px auto;
 	font-size: 60px;
 }
 
 .imgTop img {
 	width: 90%;
-	margin-right: auto;
-	margin-left: auto;
+	margin: 0 auto;
 }
 
 #main1 .preTexte {
-	margin-top: 60px;
-	margin-bottom: 40px;
+	margin: 50px 0 40px;
 	font-size: 1.3rem;
 	text-align: center;
 }
@@ -195,10 +192,6 @@ header {
 
 .ingredients {
 	font-size: 1.2rem;
-}
-
-#main img {
-	margin-bottom: 80px;
 }
 
 #images1 img {
