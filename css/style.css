@@ -139,7 +139,7 @@ header {
 }
 
 #main .pic:hover {
-	box-shadow: rgba(0, 0, 0, 0.80) 0px 3px 25px 5px;
+	box-shadow: rgba(0, 0, 0, 0.60) 0px 3px 25px 5px;
 	border: 2px solid #a10684;
 }
 
