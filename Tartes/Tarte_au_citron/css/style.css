@@ -143,9 +143,13 @@ header {
     /* MAIN TEXTE*/
 
 #main1 .preTexte {
-	margin-bottom: 40px;
+	margin: 10px 0 50px;
 	font-size: 1.3rem;
 	text-align: center;
+}
+
+#main1 .preTexte i {
+	vertical-align: middle;
 }
 
 .ingredients {
@@ -193,7 +197,7 @@ header {
 }
 
 #images2 img {
-	width: 70%;
+	width: 80%;
 	margin: 40px auto;
 }
 
