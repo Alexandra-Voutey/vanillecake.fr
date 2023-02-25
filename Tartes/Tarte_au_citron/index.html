@@ -26,41 +26,19 @@
     <link rel="stylesheet" href="css/style.css">
 
         <style> 
-    body { 
-        animation: fadeInAnimation ease 2s; 
-        animation-fill-mode: forwards; 
-        animation-iteration-count: 1; 
-    } 
-    @keyframes fadeInAnimation { 
-    0% 
-    { 
-    opacity: 0; 
-    } 
-    100% { 
-    opacity: 1; 
-    } 
-    } 
+     
     </style>
 
 </head>
 <body id="top">
 
     <!-- HEADER -->
-    <header id="img-header">
-        <div class="container">
-    
-    <div id="tittle-intro">
-        <h1 class="percent"><span style="font-size:150%;">V</span>anille <span style="font-size:150%;">C</span>ake<span style="font-size: 20%;"><i class="far fa-registered"></i></span></h1>
-    </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="text-intro col text-center">
-                    <p><span class="pr-3"><i class="fas fa-cheese"></i></span> Le blog de pâtisserie pour gourmands<span class="pl-3"><i class="fas fa-birthday-cake"></i></span></p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <header>
+        <div id="logo">
+			<div class="title">
+				<h1 class="percent text-3d"><span class="space" style="font-size:180%;">V</span>anille <span class="space2" style="font-size:170%;">C</span>ake<span style="font-size: 20%;"></span></h1>
+			</div>
+		</div>
     </header>
 
     <!-- NAV-BAR -->
@@ -69,6 +47,9 @@
            <button class="navbar-toggler bg-dark" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <a href="#" class="nav-icon" aria-label="page d'accueil" aria-current="page">
+				<img src="img/logoV3web.png" alt="icon">
+			</a>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav m-auto" id="menu-deroulant">
                     <li class="nav-item mr-3">
@@ -128,7 +109,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p class="preTexte">La tarte au citron est un de mes desserts préférés.<br> Une amie (coucou Corinne <i class='bx bx-wink-smile'></i>) a voulu me partager sa recette de crème citron sans beurre. Après un premier essai très réussi, je vous conseille de l'essayer. De plus, elle est très facile à réaliser si l'on ne fait pas la merigue qui est plus technique. Pour cette tarte j'ai fait une pâte brisée comme je les aime, croquante et peu sucrée.</p>
+                    <p class="preTexte">Une tarte acidulée et crémeuse avec le croquant de la pâte à tarte, un délice.</p>
                 </div>
             </div>
         </div>
@@ -191,7 +172,7 @@
     		<div class="row justify-content-center">
     			<div class="col md-12">
     				<div class="row">
-    					<img src="img/tarte_citron02.jpg" alt="galette" class="img-fluid">
+    					<img src="img/tarte_citron02.jpg" alt="tarte au citron" class="img-fluid">
     				</div>
     			</div>
     		</div>
@@ -199,24 +180,18 @@
     </div>
 
     <!-- SOCIAL -->
-    <div id="social1">
+    <div id="social">
         <div class="main center">
-
             <div class="icon center">
-             <a href="https://www.instagram.com/alex_vanille_cake/" title="insta Alex" target="_blank" class="social"><img src="img/insta.png" alt="social"><div class="fond_insta"></div></a>
+                <a href="https://www.instagram.com/alex_vanille_cake/" title="insta Alex" target="_blank" class="social"><img src="img/insta.png" alt="social"><div class="fond_insta"></div></a>
             </div>
-
             <div class="icon center">
-            <a href="https://www.facebook.com" target="_blank" class="social"><img src="img/face.png" title="facebook Alex" alt="social"><div class="fond_face"></div></a>
+                <a href="https://www.facebook.com" target="_blank" class="social"><img src="img/face.png" title="facebook Alex" alt="social"><div class="fond_face"></div></a>
             </div>
-            
-            <div class="icon center">
-             <a href="https://www.pinterest.fr/" target="_blank" class="social"><img src="img/pinte.png" alt="social"><div class="fond_pinte"></div></a>
-            </div>
-            
         </div>
     </div>
 
+    <!-- RECETTE -->
     <section id="main3">
     	<div class="container">
     		<div class="row">
@@ -226,60 +201,42 @@
     						<h3>Recette</h3>
                             <div class="recette">
                                 <p style="color:#a10684;font-size: 1.5rem;">Pâte brisée</p>
-                                
                                 <p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Dans un récipient mélanger les farines, le sel et le sucre.</p>
     							<p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Ajouter le beurre mou en petits morceaux. Avec le bout des doigts presser le beurre dans la farine puis sabler le mélange entre vos mains.</p>
-    							<p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Ajouter l’œuf battu et amalgamer le mélange assez rapidement pour éviter que la pâte devienne élastique. <a href="#" style="text-decoration:none; color:red" data-toggle="tooltip" data-placement="top" title="Mélanger les éléments qui constituent une pâte en les pressant et les fragmentant avec la paume de la main"><i>Fraiser</i></a> la pâte avec la paume de la main en 3 ou 4 fois. Faire une boule et l’aplatir légèrement, recouvrir de film alimentaire et mettre la pâte au réfrigérateur 45 minutes.</p>
-                                <p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Sortir la pâte du réfrigérateur et l'aplatir avec un rouleau à patisserie sur un plan de travail fariné.</p>
-                                <p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Mettre votre pâte à tarte dans un moule à tarte qui aura été préalablement beurré et fariné.</p>
-                                <p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Pour éviter que la pâte gonfle à la cuisson, piquer la pâte avec la pointe d'un couteau et couvrir la pâte avec des haricots blancs ou des billes en céramique spéciales fond de tarte.</p>
-                                <p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Cuire le fond de tarte au four à 170°C / 20 à 25 min, puis laisser refroidir.</p>
-    							
-    						    <p style="color:#a10684;font-size: 1.5rem;">Crème citron</p>
-                            
-    						    <p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Presser les citrons, passer le jus de citron dans une passoire et récupérer le jus dans une casserole.</p>
-                                <p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Chauffer le jus de citron jusqu'à un  léger frémissement.</p>
+    							<p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Ajouter l’œuf battu et amalgamer le mélange assez rapidement pour éviter que la pâte devienne élastique. <a href="#" style="text-decoration:none; color:red" data-toggle="tooltip" data-placement="top" title="Mélanger les éléments qui constituent une pâte en les pressant et les fragmentant avec la paume de la main."><i>Fraiser</i></a> la pâte avec la paume de la main en 3 ou 4 fois. Faire une boule et l’aplatir légèrement, recouvrir de film alimentaire et mettre la pâte au réfrigérateur 45 minutes.</p>
+                                
+    							<p style="color:#a10684;font-size: 1.5rem;">Crème citron</p>
+                                <p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Faire le jus de citron, le passer dans une passoire pour enlever les pépins et la pulpe. Verser le jus dans une casserole. Chauffer le jus quelques minutes.</p>
     							<p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Dans la cuve d’un robot verser les œufs et le sucre. Fouetter vitesse 5 jusqu’à ce que le mélange double de volume et blanchisse.</p>
                                 <p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Dans la cuve ajouter la maïzena, fouetter à nouveau.</p>
     							<p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Ajouter le jus de citron chaud et fouetter encore à grande vitesse. Laisser monter encore la crème.</p>
     							<p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Verser dans une casserole, fouetter sur le feu jusqu’à ce que le mélange épaississe. Quand de petites bulles commencent à remonter mettre hors du feu ajouter la crème fleurette et fouetter à nouveau.</p>
-    							<p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Verser la crème citron sur le fond de la tarte froide.</p>
-    							
-    						    <p style="color:#a10684;font-size: 1.5rem;">Meringue italienne</p>
-                            
-    						    <p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Mettre le sucre et mouiller avec de l’eau. Cuire le sucre jusqu’à 117°C ou <a href="#" style="text-decoration:none; color:red" data-toggle="tooltip" data-placement="top" title="Trempez vos doigts dans une eau glacée puis attrapez un peu de sucre : entre le pouce et l'index se forme alors une petite boule molle. A cette température, le sucre pourra être utilisé pour une meringue italienne ou un appareil à bombe"><i>petit boulet.</i></a></p>
+    							<p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Verser la crème citron sur le fond de tarte. Mettre la tarte au réfrigérateur.</p>
+
+    							<p style="color:#a10684;font-size: 1.5rem;">Meringue italienne</p>
+                                <p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Mettre le sucre et mouiller avec de l’eau. Cuire le sucre jusqu’à 117°C ou <a href="#" style="text-decoration:none; color:red" data-toggle="tooltip" data-placement="top" title="Trempez vos doigts dans une eau glacée puis attrapez un peu de sucre : entre le pouce et l'index se forme alors une petite boule molle. A cette température, le sucre pourra être utilisé pour une meringue italienne ou un appareil à bombe"><i>petit boulet.</i></a></p>
                                 <p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Pendant que le sucre cuit, fouetter les blancs d’œuf jusqu’à ce qu’ils soient légèrement mousseux.</p>
                                 <p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Verser le sucre cuit sur les blancs d’œufs en fouettant à petite vitesse. Puis fouetter à grande vitesse.</p>
-    						
-                                <p style="color:#a10684;font-size: 1.5rem;">Montage de la tarte au citron</p>
-                            
-    						    <p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Sortir la tarte au citron du réfrigérateur. Avec une spatule lisser la meringue sur la crème citron. Le conseil de Philippe Conticcini est de faire un dome de meringue pour avoir une plus grande épaisseur de meringue au milieu pour la coupe de la tarte. Cela afin d’avoir en première bouchée une belle quantité de sucre qui tapisse le palais cela atténuera l’acidité du citron pour la suite de la dégustation.</p>
-    							<p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Passer la tarte sous un grille jusqu’à coloration mais seulement quelques minutes (1 à 2 minutes) pour ne pas cuire la crème citron ou au chalumeau. Cela permet de faire crouter la meringue et lui donne une belle couleur caramel.</p>
 
-    						</div>
+    						    <p style="color:#a10684;font-size: 1.5rem;">Montage de la tarte au citron</p>
+                                <p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Sortir la tarte au citron du réfrigérateur. Avec une spatule lisser la meringue sur la crème citron. Le conseil de <strong><i>Philippe Conticcini</i></strong> est de faire un dome de meringue pour avoir une plus grande épaisseur de meringue au milieu pour la coupe de la tarte. Cela afin d’avoir en première bouchée une belle quantité de sucre qui tapisse le palais cela atténuera l’acidité du citron pour la suite de la dégustation</p>
+    							<p class="mb-3"><span><i class="far fa-hand-point-right"></i></span>Passer la tarte sous un grille jusqu’à coloration mais seulement quelques minutes (1 à 2 minutes) pour ne pas cuire la crème citron ou au chalumeau. Cela permet de faire crouter la meringue et lui donne une belle couleur caramel.</p>
+                            </div>
                         </div>
     				</div>
     			</div>
-
-    			<div class="col-md-4">
-                    <section id="images3">
-                        <div class="col-12">
-                            <h3>Suivez-moi sur instagram</h3>   
-                            <a href="https://www.instagram.com/alex_vanille_cake/" target="_blank"><img src="img/insta2.png" title="insta Alex" alt="social" class="img-fluid"></a> 
-                        </div>
-                    </section>
-
+                <div class="col md-4">
                     <section id="images__lateral">
-                        <div class="img_tarte">
-                            <img src="img/tarte_citron07.jpg" alt="tarte citron montage" class="img-fluid"> 
-                        </div>
-                        <div class="img_tarte">
+                        <div class="img_tarte m-2 mx-auto">
                             <img src="img/tarte_citron04.jpg" alt="meringue italienne" class="img-fluid"> 
                         </div>
-                        <div class="img_tarte">
+                        <div class="img_tarte m-2 mx-auto">
+                            <img src="img/tarte_citron.jpg" alt="tarte citron montage" class="img-fluid"> 
+                        </div>
+                        <div class="img_tarte m-2 mx-auto">
                             <img src="img/tarte_citron03.jpg" alt="tarte citron montage" class="img-fluid"> 
                         </div>
-                        <div class="img_tarte">
+                        <div class="img_tarte m-2 mx-auto">
                             <img src="img/tarte_citron05.jpg" alt="tarte citron montage" class="img-fluid"> 
                         </div>
                     </section>
@@ -300,10 +257,10 @@
         </div>
     </div>
 
-    <div id="main4">
-        <div class="container-block">
-            <div class="row justify-content-center">
-                <div class="col md-4">
+    <section id="main4">
+        <div class="container">
+            <div class="row">
+                <div class="about-card">
                     <div class="card">
                         <div class="d-flex">
                             <div class="lemon mr-auto mt-3 ml-4">
@@ -314,105 +271,71 @@
                                 <span><i class='bx bx-lemon'></i></span>
                             </div>
                         </div>
-
-                        <div class="">
-                            <div class="avatar">
-                                <img src="img/alex.png" alt="image_alex">
-                            </div>
+                        <div class="avatar">
+                            <img src="img/alex.png" alt="image_alex">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- FORMULAIRE -->
-    <div id="formulaire">
-        <div class="container">
-            <div class="row">
-                <div class="col md-6">
-                <div class="title text-center">Laisser un commentaire</div>
-                </div>
-            </div>
+    <section id="contact">
+        <div class="titre-form">
+            <h3>Laissez moi un commentaire</h3>
         </div>
+        <form action="mailto:vanillecake@outlook.com" method="POST" enctype="text/plain" id="contact" accept-charset="UTF-8">
+            <div class="container form-goup">
+                <div class="row">
+                    <div class="col">
+                        <div>
+                        <label for="nom"></label>
+                        <input type="text" name="nom" id="nom" required placeholder=" Nom" maxlength="20">
+                        </div>
 
-        <form action="#" method="post" accept-charset="UTF-8">
-
-        <div class="container">
-            <div class="row">
-            <div class="col md-6">
-
-                <div>
-                 <label for="nom" class="m-0">Nom <em>*</em></label>
-                   <input type="text" name="nom" id="nom" required maxlength="50">
-                </div>
-                
-                <div class="mt-3">
-                 <label for="email" class="m-0">E-mail <em>*</em></label>
-                   <input type="email" name="email" id="email" required placeholder=" mail@domaine.com" maxlength="50">
-                </div>
-
-                <div class="mt-3">
-                 <label for="site" class="m-0">Site</label>
-                   <input type="text" name="site" id="site" pattern="^http:\/\/(.*)$" placeholder=" http://">
-                </div>
-               
-            </div>
-            
-                <div class="col md-6">
-                    <label for="Textarea" class="m-0">Commentaire</label>
-                    <textarea rows="6" id="Textarea"></textarea>
-
-                    <div class="">
-                    <input type="submit" value="Soumettre" id="submit">
+                        <div>
+                        <label for="prenom"></label>
+                        <input type="text" name="prenom" id="prenom" required placeholder=" Prénom" maxlength="20">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="">
+                            <label for="email"></label>
+                            <input type="email" name="email" id="email" required placeholder=" mail@domaine.com" maxlength="20">
+                            <div class="">
+                                <input type="submit" value="Soumettre" id="submit">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col md-6 text-center mt-1">
-                 <div class="info font-weight-light">Votre adresse de messagerie ne sera pas publiée. Champs obligatoires <em>*</em></div>
-                </div>
-            </div>
-        </div>
+            <div class="info">Votre adresse de messagerie ne sera pas publiée</div>
         </form>
-    </div>
+    </section>
 
     <!-- SOCIAL -->
     <div id="social">
         <div class="main center">
             <div class="icon center">
-             <a href="https://www.instagram.com/alex_vanille_cake/" title="insta Alex" target="_blank" class="social"><img src="img/insta.png" alt="social"><div class="fond_insta"></div></a>
+                <a href="https://www.instagram.com/alex_vanille_cake/" title="insta Alex" target="_blank" class="social"><img src="img/insta.png" alt="social"><div class="fond_insta"></div></a>
             </div>
-
             <div class="icon center">
-            <a href="https://www.facebook.com" title="facebook Alex" target="_blank" class="social"><img src="img/face.png" alt="social"><div class="fond_face"></div></a>
-            </div>
-            
-            <div class="icon center">
-             <a href="https://www.pinterest.fr/" target="_blank" class="social"><img src="img/pinte.png" alt="social"><div class="fond_pinte"></div></a>
+                <a href="https://www.facebook.com" title="facebook Alex" target="_blank" class="social"><img src="img/face.png" alt="social"><div class="fond_face"></div></a>
             </div>
         </div>
     </div>
 
     <!-- FOOTER -->
-    <div class="footer text-center">
-        <a href="#top">
-            <span><i class="fas fa-chevron-circle-up" title="haut de page"></i></span>
-        </a>
-
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <p class="font-weight-light pt-3">Copyright &copy;
-                    <span id="year"></span><span class="coul"> vanillecake.fr</span></p>
-                    <p class="font-weight-light"><small>Sauf mention contraire, l'ensemble des recettes, textes et visuels (photos, illustrations, graphismes) présents sur ce site sont la propriété exclusive d'Alexandra. Il est strictement interdit de les copier et de les redistribuer.</small></p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <section class="footer">
+		<div class="container">
+	   		<div class="">
+	    		<p class="section-title">Copyright &copy; <script> document.write(new Date().getFullYear());</script>
+	      		<a href="mailto:vanillecake@outlook.com" target="_blank"><span class="coul">vanillecake.fr</span></a></p>
+	      		<p class="text1">Sauf mention contraire, l'ensemble des recettes, textes et visuels (photos, illustrations, graphismes) présents sur ce site sont la propriété exclusive d'Alexandra.<br>Il est strictement interdit de les copier et de les redistribuer.</p>
+			</div>
+	   	</div>
+	</section>
 
     <!-- Script Jquery  -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -426,16 +349,12 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 
-    <script>
-        $('#year') .text(new Date().getFullYear());
-    </script>
-    
     <!-- INFO BULE -->
     <script>
     $(document).ready(function(){
         $('[data-toggle="tooltip"]').tooltip();
     });
     </script>
-    
+
 </body>
 </html>
